@@ -21,20 +21,7 @@
                 <li><a href="#feedback">Feedback</a></li>
             </ul>
         </nav>
-        <script>
-            const navLinks = document.querySelector('.nav-links');
-            const linkItems = document.querySelectorAll('.nav-links a');
-
-            inkItems.forEach(link => {
-                link.addEventListener('mouseenter', () => {
-                    navLinks.style.boxShadow = '0 0 10px #ff00cc, 0 0 20px #ff00cc, 0 0 40px #ff00cc';
-                });
-
-                link.addEventListener('mouseleave', () => {
-                    navLinks.style.boxShadow = 'none';
-                });
-            });
-  </script>
+        
 
     </header>
 
@@ -632,7 +619,20 @@ which proves more than enough for a reliable ride that takes you from daily comm
 </div>
 
 
+<script>
+  const navLinks = document.querySelector('.nav-links');
+  const linkItems = document.querySelectorAll('.nav-links a');
 
+  linkItems.forEach(link => {
+    link.addEventListener('mouseenter', () => {
+      navLinks.style.boxShadow = '0 0 10px #ff00cc, 0 0 20px #ff00cc, 0 0 40px #ff00cc';
+    });
+
+    link.addEventListener('mouseleave', () => {
+      navLinks.style.boxShadow = 'none';
+    });
+  });
+</script>
 
 </body>
 </html>
