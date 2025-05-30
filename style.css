@@ -144,9 +144,9 @@ img {
     display: inline;
        
 }
-.nav-products a:hover{
+/*.nav-products a:hover{
     color: #e72300;
-}
+}*/
 
 .hide-prod{
     display: none;
