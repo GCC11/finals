@@ -55,8 +55,14 @@ body {
     transition: 0.3s;
 }
 
-.nav-links a:hover {
-    color: #e72300;
+.nav-links li a {
+     
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: color 0.2s ease;
+    
 }
 
 /* Content Sections */
