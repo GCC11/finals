@@ -54,6 +54,10 @@ body {
     font-weight: bold;
     transition: 0.3s;
 }
+.nav-links a:hover {
+  color: #ff00cc;
+  text-shadow: 0 0 5px #ff00cc, 0 0 10px #ff00cc, 0 0 20px #ff00cc;
+}
 
 .nav-links li a {
      
